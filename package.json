@@ -1,0 +1,31 @@
+{
+  "name": "ampersand-input-view-date",
+  "version": "1.0.0",
+  "description": "an `ampersand-input-view` with date capabilities. This will utilize the `date` input type when available and fallback to a mask to only allow formatted date input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yallups/ampersand-input-view-date.git"
+  },
+  "keywords": [
+    "input",
+    "date",
+    "ampersand",
+    "mask"
+  ],
+  "author": "Shawn <mryallups@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yallups/ampersand-input-view-date/issues"
+  },
+  "homepage": "https://github.com/yallups/ampersand-input-view-date",
+  "dependencies": {
+    "amp-extend": "^1.0.1",
+    "amp-is-array": "^1.0.1",
+    "ampersand-input-view-masked": "git://github.com/yallups/ampersand-input-view-masked",
+    "moment": "^2.9.0"
+  }
+}
